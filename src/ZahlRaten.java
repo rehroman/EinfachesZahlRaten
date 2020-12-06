@@ -7,7 +7,8 @@ public class ZahlRaten {
 	public static void main(String[] args) {
 		int gesuchtMin = 0;
 		int gesuchtMax = 100;
-		int gesuchtZahl = zahlWuerfeln(gesuchtMin, gesuchtMax);
+		ZahlRaten spiel = new ZahlRaten();
+		int gesuchtZahl = spiel.zahlWuerfeln(gesuchtMin, gesuchtMax);
 
 		int eingabeZahl;
 		Scanner eingabe = new Scanner(System.in);
@@ -33,7 +34,7 @@ public class ZahlRaten {
 		eingabe.close();
 	}
 
-	static int zahlWuerfeln(int min, int max) {
+	int zahlWuerfeln(int min, int max) {
 		int bereich = (max - min) + 1;
 		return (int) (min + (Math.random() * bereich));
 	}
