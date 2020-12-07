@@ -1,3 +1,3 @@
-# EinfachesZahlRaten
+# EinfachesZahlRaten - Branch ESA6_Buildmanagemen
 
-Dies ist ein einfaches Zahlratespiel und Screenshots von den Konsolenbefehlen. Alle Operationen wurden aber auch nochmal in Eclipse gemacht mit EGit.
+Branch ESA6_Buildmanagement ist die Bearbeitung fuer die Buildmanagement Aufgabe.
