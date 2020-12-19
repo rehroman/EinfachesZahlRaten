@@ -3,4 +3,5 @@
 Branch ESA6_Buildmanagement ist die Bearbeitung fuer die Buildmanagement Aufgabe.
 
 
-# EinfachesZahlRaten - Jenkins Test111111111111111
+# EinfachesZahlRaten - Jenkins Commit, - Test NEU
+ Auto-Build and push to remote Repo on GitHub
